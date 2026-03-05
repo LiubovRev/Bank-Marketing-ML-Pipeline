@@ -12,20 +12,19 @@ build predictive models.
 
 
 ## Pipeline Diagram
-
+```
 Customer dataset  
         ↓  
 Feature preprocessing  
         ↓  
-Model training  
-(Logistic Regression)  
+Model training (Logistic Regression)  
         ↓  
 MLflow experiment tracking  
         ↓  
 Model registry  
         ↓  
 FastAPI prediction service  
-
+```
 ---
 ## ⚙️ Methods
 
