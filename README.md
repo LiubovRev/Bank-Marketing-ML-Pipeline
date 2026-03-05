@@ -5,14 +5,28 @@ End-to-end machine learning system for predicting whether a customer will subscr
 ---
 ## 📌 Overview
 
-The project demonstrates a production-style ML workflow including
-experiment tracking, model optimization, and API deployment.
-This project analyzes the **Portuguese Bank Marketing dataset** to
-predict whether a customer will subscribe to a term deposit after a
-marketing phone call. The notebook applies **data exploration, feature
-engineering, and machine learning** techniques to uncover insights and
+The project demonstrates a production-style ML workflow including experiment tracking, model optimization, and API deployment.
+This project analyzes the **Portuguese Bank Marketing dataset** to predict whether a customer will subscribe to a term deposit after a
+marketing phone call. The notebook applies **data exploration, feature engineering, and machine learning** techniques to uncover insights and
 build predictive models.
 
+
+## Pipeline Diagram
+
+Customer dataset
+        ↓
+Feature preprocessing
+        ↓
+Model training
+(Logistic Regression)
+        ↓
+MLflow experiment tracking
+        ↓
+Model registry
+        ↓
+FastAPI prediction service
+
+---
 ## ⚙️ Methods
 
 -   **Data Preprocessing**: Handling missing values, encoding
