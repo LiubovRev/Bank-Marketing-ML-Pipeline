@@ -28,8 +28,7 @@ FastAPI prediction service
 ---
 ## ⚙️ Methods
 
--   **Data Preprocessing**: Handling missing values, encoding
-    categorical features, and scaling.
+-   **Data Preprocessing**: Handling missing values, encoding categorical features, and scaling.
 -   **Class Imbalance Handling**: SMOTE, ADASYN, and SMOTETomek applied
     to balance classes.
 -   **Feature Selection**: ANOVA F-test, Recursive Feature Elimination
@@ -41,13 +40,10 @@ FastAPI prediction service
 
 ## 📊 Results
 
--   Ensemble methods (Random Forest, Gradient Boosting, XGBoost)
-    outperformed baseline models.
--   Feature importance and SHAP values highlighted key drivers of
-    deposit subscription (e.g., contact duration, previous campaign
+-   Ensemble methods (Random Forest, Gradient Boosting, XGBoost) outperformed baseline models.
+-   Feature importance and SHAP values highlighted key drivers of deposit subscription (e.g., contact duration, previous campaign
     outcomes, and client demographics).
--   Balanced sampling methods improved recall for the minority class
-    (subscribers).
+-   Balanced sampling methods improved recall for the minority class (subscribers).
 
 ## 🚀 Key Takeaways
 
@@ -63,25 +59,8 @@ FastAPI prediction service
 
 ## 🛠️ Dependencies and Setup Instructions
 
-### Required Libraries
-
 ``` bash
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-imbalanced-learn
-xgboost
-shap
-scipy
-joblib
-```
-
-You can install all dependencies using pip:
-
-``` bash
-pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn xgboost shap scipy joblib
+pip install -r requirements.txt
 ```
 
 ------------------------------------------------------------------------
