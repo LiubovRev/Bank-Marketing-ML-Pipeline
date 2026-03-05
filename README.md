@@ -1,7 +1,12 @@
-# Bank Marketing Subscription Prediction
+# Bank Marketing ML Pipeline
 
+End-to-end machine learning system for predicting whether a customer will subscribe to a term deposit during a marketing campaign.
+
+---
 ## 📌 Overview
 
+The project demonstrates a production-style ML workflow including
+experiment tracking, model optimization, and API deployment.
 This project analyzes the **Portuguese Bank Marketing dataset** to
 predict whether a customer will subscribe to a term deposit after a
 marketing phone call. The notebook applies **data exploration, feature
